@@ -1,0 +1,40 @@
+.header{
+  background: url("../img/header-bg.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 745px;
+  color: white;
+  font-family: "Gotham Rounded";
+  text-align: center;
+
+  &__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1;
+    text-transform: uppercase;
+    padding-top: 217px;
+    letter-spacing: 5px;
+  }
+  &__subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    padding: 14px 0 24px;
+    letter-spacing: 2px;
+  }
+  &__last{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 211px;
+  }
+  &-socials{
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    &__item-img{
+      margin: 8px;
+      width: 24px;
+      height: 24px;
+    }
+  }
+}

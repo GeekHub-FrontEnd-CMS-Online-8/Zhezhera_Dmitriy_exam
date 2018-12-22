@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Gotham Rounded; /* Имя шрифта */
+  src: url(./GothamRounded-Bold.otf); /* Путь к файлу со шрифтом */
+  font-weight: 700;
+}
+@font-face {
+  font-family: Gotham Rounded; /* Имя шрифта */
+  src: url(./GothamRounded-Medium.otf); /* Путь к файлу со шрифтом */
+  font-weight: 500;
+}
+@font-face {
+  font-family: Gotham Rounded; /* Имя шрифта */
+  src: url(./GothamRounded-Light.otf); /* Путь к файлу со шрифтом */
+  font-weight: 300;
+}

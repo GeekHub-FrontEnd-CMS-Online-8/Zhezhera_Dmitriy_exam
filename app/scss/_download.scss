@@ -1,0 +1,55 @@
+.download{
+  background: #f5f6f7;
+  background-size: cover;
+  min-height: 400px;
+  padding: 94px 0;
+  text-align: center;
+  color: #373737;
+  text-transform: uppercase;
+  &__title{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+  }
+  &__subtitle{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    padding: 10px 15%;
+  }
+  &__btn-apple{
+    display: inline-block;
+    width: 280px;
+    line-height: 60px;
+    padding-left: 20px;
+    color: white;
+    background: url("../img/btn-bg-abble.png") no-repeat center;
+    background-size: 100% 100%;
+    text-align: left;
+    text-decoration: none;
+    margin: 5px;
+    &:hover{
+      opacity: 0.8;
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  &__btn-android{
+    display: inline-block;
+    width: 280px;
+    line-height: 60px;
+    padding-left: 20px;
+    color: white;
+    background: url("../img/btn-bg-android.png") no-repeat center;
+    background-size: 100% 100%;
+    text-align: left;
+    text-decoration: none;
+    margin: 5px;
+    &:hover{
+      opacity: 0.8;
+      text-decoration: none;
+      color: white;
+    }
+  }
+}

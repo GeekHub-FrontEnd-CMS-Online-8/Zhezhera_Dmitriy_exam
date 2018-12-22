@@ -1,0 +1,10 @@
+.second{
+  background: url("../img/bg-second.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 490px;
+  padding: 94px 0;
+  &__content{
+    max-width: 50%;
+    padding: 0 6%;
+  }
+}
